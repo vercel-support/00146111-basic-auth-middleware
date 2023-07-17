@@ -1,0 +1,19 @@
+lockfileVersion: 5.4
+
+specifiers:
+  basic-auth-for-vercel-middleware: ^1.0.5
+
+dependencies:
+  basic-auth-for-vercel-middleware: 1.0.5
+
+packages:
+
+  /@vercel/edge/0.3.4:
+    resolution: {integrity: sha512-dFU+yAUDQRwpuRGxRDlEO1LMq0y1LGsBgkyryQWe4w15/Fy2/lCnpvdIoAhHl3QvIGAxCLHzwRHsqfLRdpxgJQ==}
+    dev: false
+
+  /basic-auth-for-vercel-middleware/1.0.5:
+    resolution: {integrity: sha512-Kzyt7uRYnvaHauS5NRQ/KxB3iZymkZiLcAlCB7iK9WovnEH2/+6LdD+UmH50C3F3IQ9bvaj2wXt1xrU8TbCseg==}
+    dependencies:
+      '@vercel/edge': 0.3.4
+    dev: false
